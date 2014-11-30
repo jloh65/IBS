@@ -1,0 +1,124 @@
+body{
+	background-color:#FFFACD;
+	margin:0;
+}
+#header{
+    position:fixed;
+    margin-top:-15px;
+    border-radius:5px;
+    height:60px;
+    width:100%;
+    margin-bottom:10px;
+    background-color:#800000;
+    z-index: 1;
+
+}
+
+.left{
+    border-radius:5px;
+    float:left;
+    height:400px;
+    width:15%;
+    margin-top:50px;
+	margin-left:10px;
+}
+
+.right{
+    margin-top:50px;
+    border-radius:5px;
+    float:right;
+    height:400px;
+    width:83%;
+	margin-right:10px;
+}
+
+#footer{
+	margin: 50px 10px 10px 10px;
+    border-radius:5px;
+    height:200px;
+    clear:both;
+	text-align:center;
+	padding-top:240px;
+}
+
+
+
+.left ul{
+	list-style-type: none
+}
+
+.left li{
+   margin-left:-30px;
+   font-size:25px;
+   font-family:Arial;
+   padding:10px;
+}
+
+#name{
+    float:left;
+    font-size:25px;
+	font-family:Bentham;
+    color:white;
+    margin-left:10px;
+}
+#email{
+	float:right;
+	font-size:25px;
+	color:white;
+	margin-right:20px;
+}
+.right p{
+    font-size:18px;
+    font-family:Arial;
+    margin-left:10px;
+	margin-top:-10px;
+	text-align:center;
+	padding-right:320px;
+}
+.right h1{
+	text-align:left;
+	font-size:80px;
+    font-family:Arial;
+    margin-left:10px;
+	text-align:center;
+	padding-right:320px;
+}
+div ul li a:visited{
+color:black;
+}
+div ul li a:link{
+	text-decoration:none;
+	color:black;
+}
+div ul li a:hover{
+	color:#800000;
+	text-decoration:underline;
+}
+#suche{
+padding-top:300px;
+width:80%;
+height:300px;
+border: 2px solid black;
+margin:auto;
+}
+iframe{
+	border: none;
+}
+.jumbotron {
+	background: #eefadc;
+}
+/** Code for responsive Video taken by https://bootstrapmaster.com/implement-responsive-youtube-vimeo-embed-iframe-twitter-bootstrap-3/ */
+.responsive-video {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 60px;
+	overflow: hidden;
+}
+.responsive-video iframe,.responsive-video object,.responsive-video embed
+	{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
