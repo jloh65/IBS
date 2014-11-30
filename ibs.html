@@ -26,9 +26,21 @@
 		<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
   <fieldset>
     <legend>Wikipedia Suche</legend>
-    <input type="text"   name="search" value="" />
-    <input type="submit" name="go" value="Artikel"/>
-    <input type="submit" name="fulltext" value="Volltext" />
+    <div class="form-group">
+		<p>
+			<label class="control-label" for="search" tabindex="1"></label>
+		</p>
+		<input class="form-control" type="text" name="search" id="search"
+									tabindex="2" />
+	</div>
+	<div class="form-group">
+		<p>
+			<input class="btn" type="submit" name="go" id="go"
+										value="Artikel" tabindex="3"/>
+			<input class="btn" type="submit" name="fulltext" id="fulltext"
+										value="Volltext" tabindex="4"/>
+		</p>
+	</div>
   </fieldset>
 </form>
 	</div>
@@ -39,7 +51,7 @@
 		<p>Abellstraße 6</p>
 		<p>63667 Nidda</p>
 		<p>E-mail: ibrahim.cam@mni.thm.de</p>
-		<a href=""><img src="http://www.w3.org/WAI/wcag1AAA.gif" /></a>
+		<a href="http://wave.webaim.org/report#/http%3A%2F%2Fibrahimcam7.cloudcontrolled.com%2Fibs.html"><img src="http://www.w3.org/WAI/wcag1AAA.gif" /></a>
 	</div>
 	</body>
 </html>
